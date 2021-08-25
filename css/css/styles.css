@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background: #e0e8ff url("../../images/pattern-background-mobile.svg") repeat center/cover;
+}
+
+.container {
+  border-radius: 1.5rem;
+  border: 1px solid #ccc;
+  width: 90%;
+  max-width: 375px;
+  background-color: white;
+}
+
+.container .bg img {
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  width: 100%;
+}
+
+.container .info {
+  display: -ms-grid;
+  display: grid;
+  gap: 2rem;
+  height: 100%;
+  width: 100%;
+}
+
+.container .button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.info {
+  padding: 1.5rem;
+}
+
+.info .description-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.info .plans-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.info .plans-container .plan-description {
+  text-align: center;
+}
+
+.info .plans-container .plan-description p {
+  color: #7280a7;
+}
+
+.info .plans-container a {
+  display: inline-block;
+}
+
+.description-container {
+  gap: .5rem;
+}
+
+.description-container p {
+  color: #7280a7;
+  text-align: center;
+  width: 90%;
+}
+
+.button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: .5rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.button-container .button-proceed, .button-container .button-cancel {
+  font-size: .9rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button-container .button-proceed {
+  color: white;
+  background-color: #3829e0;
+  border-radius: .5rem;
+  border: none;
+  padding: .7rem 0;
+}
+
+.button-container .button-cancel {
+  margin: .3rem 0;
+  border: none;
+  background-color: white;
+  color: #7280a7;
+}
+
+h1, h3 {
+  color: #1f2f56;
+}
+
+@media only screen and (min-width: 768px) {
+  .main {
+    background: #e0e8ff url("../../images/pattern-background-desktop.svg") repeat center/cover;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
