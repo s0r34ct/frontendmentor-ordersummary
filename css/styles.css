@@ -133,6 +133,12 @@ html {
   border-radius: .5rem;
   border: none;
   padding: .7rem 0;
+  -webkit-transition: all ease .2s;
+  transition: all ease .2s;
+}
+
+.button-container .button-proceed:hover {
+  background-color: #665ae2;
 }
 
 .button-container .button-cancel {
@@ -140,6 +146,12 @@ html {
   border: none;
   background-color: white;
   color: #7280a7;
+  -webkit-transition: all ease .2s;
+  transition: all ease .2s;
+}
+
+.button-container .button-cancel:hover {
+  color: #1f2f56;
 }
 
 h1, h3 {
