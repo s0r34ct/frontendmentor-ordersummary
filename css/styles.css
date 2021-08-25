@@ -22,7 +22,7 @@ html {
       -ms-flex-align: center;
           align-items: center;
   height: 100vh;
-  background: #e0e8ff url("/images/pattern-background-mobile.svg") repeat center/cover;
+  background: #e0e8ff url("images/pattern-background-mobile.svg") repeat center/cover;
 }
 
 .container {
@@ -148,7 +148,7 @@ h1, h3 {
 
 @media only screen and (min-width: 768px) {
   .main {
-    background: #e0e8ff url("/images/pattern-background-desktop.svg") repeat center/cover;
+    background: #e0e8ff url("images/pattern-background-desktop.svg") repeat center/cover;
   }
 }
 /*# sourceMappingURL=styles.css.map */
